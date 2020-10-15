@@ -76,13 +76,13 @@ footer p a{
     .box{
     }
     .box h2{
-        font-size: .8em;
+        font-size: .6em;
         text-align: left;
         margin: 1vh 5vw;
         
     }
     .box p{
-        font-size: .8em;
+        font-size: .5em;
         width: 90%;
         text-align: left;
         margin: 0 5vw;
@@ -91,7 +91,7 @@ footer p a{
        .box img{
            width: 15vw;
            margin: 20px 0;
-           margin: 0 5vw;
+           margin: 0 1vw;
        }
     .p1-item{
         border-bottom: 2px solid #e6e6e6;
@@ -103,4 +103,7 @@ footer p a{
       margin: 10px auto;
       margin-top: 0 ;
       }
+    .item-center{align-self: center;}
+    .item-center img{display: block; margin: 0 auto;width: 8vw;}
+    .item-center p{font-size: .5em;\}
 }
