@@ -43,9 +43,7 @@ margin-top: 0 ;
 .item-center p{
    text-align: center;
     font-size: .9em;
-    width: 100%;
-    display: block;
-    margin: 1vh auto;
+
     color: white;
 }
 footer{
@@ -103,7 +101,7 @@ footer p a{
       margin: 10px auto;
       margin-top: 0 ;
       }
-    .item-center{align-self: center;}
+    .item-center{align-self: center;display: flex;flex-direction: column;align-content: center; }
     .item-center img{display: block; margin: 0 auto;width: 8vw;}
-    .item-center p{font-size: .5em;margin-bottom: 2vh;}
+    .item-center p{font-size: .5em;}
 }
