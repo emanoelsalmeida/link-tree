@@ -16,8 +16,10 @@ body{
 .p1-item{
     
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    border-bottom: 2px solid #e6e6e6;
 }
 .banner img{
   width: 50%;
@@ -31,21 +33,28 @@ margin-top: 0 ;
     padding: 2vh 3vw;
     background-color: #1679ee;
 }
-.item-center{
-    background-color: #1679ee;
+.p1-item button.color{
+    background-color:#1679ee;
+    color:white;
+    text-align: center;
+    width: 30vw;
+    height: 10vh;
+    font-size: .9em;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 30px 30px;
+    border: none;
+    font-weight: 700;
+border-radius: 30px;
 }
+
 .box h2{
-    margin: 20px 40px;
+    margin: 20px 40px;text-align: center;
 }
 .box p{
-    margin:  20px 50px;
+    margin:  20px 50px;text-align: center;
 }
-.item-center p{
-   text-align: center;
-    font-size: .9em;
 
-    color: white;
-}
 footer{
     background-color:#32a768 ;
     clear: both;
@@ -67,7 +76,7 @@ footer p a{
         display: grid;
         grid-template-columns: 100%;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         grid-gap: 20px;
         
     }
@@ -75,14 +84,14 @@ footer p a{
     }
     .box h2{
         font-size: .6em;
-        text-align: left;
+        text-align: center;
         margin: 1vh 5vw;
         
     }
     .box p{
         font-size: .5em;
         width: 90%;
-        text-align: left;
+        text-align: center;
         margin: 0 5vw;
         margin-bottom: 2vh;
        }
@@ -101,7 +110,7 @@ footer p a{
       margin: 10px auto;
       margin-top: 0 ;
       }
-    .item-center{align-self: center;display: flex;flex-direction: column;align-content: center; }
-    .item-center img{display: block; margin: 0 auto;width: 8vw;}
-    .item-center p{font-size: .5em;}
+    .p1-item button.color{
+        width: 80vw;height: 14vh;font-size: .7em;border-radius: 60px;
+    }
 }
