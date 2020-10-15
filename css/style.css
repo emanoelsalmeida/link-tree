@@ -105,5 +105,5 @@ footer p a{
       }
     .item-center{align-self: center;}
     .item-center img{display: block; margin: 0 auto;width: 8vw;}
-    .item-center p{font-size: .5em;\}
+    .item-center p{font-size: .5em;margin-bottom: 2vh;}
 }
