@@ -83,13 +83,13 @@ footer p a{
     .box{
     }
     .box h2{
-        font-size: .7em;
+        font-size: .9em;
         text-align: center;
         margin: 1vh 5vw;
         
     }
     .box p{
-        font-size: .7em;
+        font-size: .9em;
         width: 90%;
         text-align: center;
         margin: 0 5vw;
@@ -111,6 +111,6 @@ footer p a{
       margin-top: 0 ;
       }
     .p1-item button.color{
-        width: 80vw;height: 14vh;font-size: .7em;border-radius: 60px;
+        width: 80vw;height: 10vh;font-size: .7em;border-radius: 50px;
     }
 }
